@@ -4,6 +4,7 @@ import * as Phosphor from 'phosphor-react';
 
 import './global.css';
 import twitterLogo from './assets/logo-twitter.svg';
+import Tweet from './components/Tweet';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -62,9 +63,11 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
               <textarea id="tweet" placeholder="What's happening" />
             </label>
             <button type="submit">Tweet</button>
-
-            <div className="separator" />
           </form>
+
+          <div className="separator" />
+
+          <Tweet />
         </main>
       </div>
     </div>
