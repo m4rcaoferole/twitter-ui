@@ -13,39 +13,42 @@ export function Sidebar() {
       <nav className="main-navigation">
         <NavLink to="/">
           <Phosphor.House weight="fill" />
-          Home
+          <span>Home</span>
         </NavLink>
         <Link className="" to="#">
           <Phosphor.Hash />
-          Explore
+          <span>Explore</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.Bell />
-          Notifications
+          <span>Notifications</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.Envelope />
-          Messages
+          <span>Messages</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.BookmarkSimple />
-          Bookmarks
+          <span>Bookmarks</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.FileText />
-          Lists
+          <span>Lists</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.User />
-          Profile
+          <span>Profile</span>
         </Link>
         <Link className="" to="#">
           <Phosphor.DotsThreeCircle />
-          More
+          <span>More</span>
         </Link>
       </nav>
 
-      <button className="new-tweet">Tweet</button>
+      <button className="new-tweet">
+        <Phosphor.Pencil />
+        <span>Tweet</span>
+      </button>
     </aside>
   )
 }

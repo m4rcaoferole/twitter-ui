@@ -1,4 +1,6 @@
 import { FormEvent, KeyboardEvent, useState } from "react";
+import * as Phosphor from 'phosphor-react';
+
 import { Header } from "../components/Header";
 import { Separator } from "../components/Separator";
 import { Tweet } from "../components/Tweet";
@@ -49,7 +51,10 @@ export function Status() {
             onChange={(event) => {setNewAnswer(event.target.value)
           }} />
         </label>
-        <button type="submit">Answer</button>
+        <button type="submit">
+          <Phosphor.PaperPlaneRight />
+          <span>Answer</span>
+        </button>
       </form>
 
 
