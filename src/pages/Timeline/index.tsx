@@ -1,8 +1,8 @@
 import { FormEvent, useState } from 'react';
 
-import { Header } from '../components/Header';
-import { Separator } from '../components/Separator';
-import { Tweet } from '../components/Tweet';
+import { Header } from '../../components/Header';
+import { Separator } from '../../components/Separator';
+import { Tweet } from '../../components/Tweet';
 
 import './Timeline.css';
 

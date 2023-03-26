@@ -1,9 +1,9 @@
 import { FormEvent, KeyboardEvent, useState } from "react";
 import * as Phosphor from 'phosphor-react';
 
-import { Header } from "../components/Header";
-import { Separator } from "../components/Separator";
-import { Tweet } from "../components/Tweet";
+import { Header } from "../../components/Header";
+import { Separator } from "../../components/Separator";
+import { Tweet } from "../../components/Tweet";
 
 import './Status.css';
 
